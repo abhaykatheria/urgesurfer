@@ -3,7 +3,7 @@
 > Cravings are waves. They rise, they peak, they pass. This app teaches you to ride them out instead of fighting them.
 
 <p align="center">
-  <em>iOS · React Native + Expo · MIT · No backend, no account, no telemetry</em>
+  <em>iOS · React Native + Expo · GPL-3.0 · No backend, no account, no telemetry</em>
 </p>
 
 ---
@@ -86,7 +86,7 @@ If you find a vulnerability, please don't open a public issue — read **[SECURI
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Fork it, ship it, modify it. If it helps someone you know ride a wave out, that's enough.
+[GNU GPL v3](LICENSE). Fork it, ship it, modify it — but anything you distribute that's built on this code has to stay under the same license, with source available. Copyleft is intentional: this is meant to stay open and shame-free wherever it goes. If it helps someone you know ride a wave out, that's enough.
 
 ---
 
