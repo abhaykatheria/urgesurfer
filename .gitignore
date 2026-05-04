@@ -141,3 +141,25 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Expo / React Native
+.expo/
+web-build/
+ios/
+android/
+
+# macOS
+.DS_Store
+
+# Native signing keys (never commit these)
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Merge backup files
+*.orig.*
+
+# Local design bundle (handoff source, not part of the app)
+_design/

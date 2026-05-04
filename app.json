@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Urge Surfer",
+    "slug": "urge-surfer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.urgesurfer.app"
+    },
+    "splash": {
+      "backgroundColor": "#F4EFE6",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-asset",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Urge Surfer uses the camera so you can capture a victory selfie after riding out a craving.",
+          "photosPermission": "Urge Surfer needs photo library access to save your victory selfies."
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.urgesurfer.app"
+    }
+  }
+}
