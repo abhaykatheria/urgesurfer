@@ -6,9 +6,11 @@
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "icon": "./assets/icon.png",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.urgesurfer.app"
+      "bundleIdentifier": "com.urgesurfer.app",
+      "icon": "./assets/icon.png"
     },
     "splash": {
       "backgroundColor": "#F4EFE6",
