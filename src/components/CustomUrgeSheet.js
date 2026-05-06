@@ -38,16 +38,15 @@ export default function CustomUrgeSheet({ open, onClose, onCreate }) {
   return (
     <Animated.View style={{
       position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
-      zIndex: 50, opacity,
-    }} pointerEvents="box-none">
+      zIndex: 50, opacity, pointerEvents: 'box-none',
+    }}>
       <Pressable onPress={onClose} style={{
         position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
         backgroundColor: 'rgba(0,0,0,0.45)',
       }} />
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        style={{ flex: 1, justifyContent: 'flex-end' }}
-        pointerEvents="box-none"
+        style={{ flex: 1, justifyContent: 'flex-end', pointerEvents: 'box-none' }}
       >
         <Animated.View style={{
           backgroundColor: t.sand,
