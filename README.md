@@ -84,6 +84,16 @@ The scope is intentionally tight, but PRs and ideas are welcome. Read **[CONTRIB
 
 If you find a vulnerability, please don't open a public issue — read **[SECURITY.md](SECURITY.md)** for how to report it privately.
 
+## Support the project
+
+If Urge Surfer helped you ride out a wave, the best way to keep it going is to share it with someone else who could use it. If you want to chip in too, you can buy me a coffee — every little bit goes back into hosting, the Apple Developer fee, and time on the roadmap.
+
+<p align="left">
+  <a href="https://www.buymeacoffee.com/abhaykatheria" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="210">
+  </a>
+</p>
+
 ## License
 
 [GNU AGPL v3](LICENSE). Fork it, ship it, modify it — but anything you distribute, _or run as a network service_, has to stay under the same license with source available. The Affero clause is intentional: if someone ever turns this into a hosted service, that service has to publish its source too. The whole point of the app is to stay open and shame-free wherever it goes.
